@@ -182,4 +182,4 @@ def get_actor(platform: str, year: int):
 
     # 'mode' es una funcion de 'statistics' la cual nos ayuda a mostrar el valor que mas se repite, en este caso, el nombre del actor que mas se repite en la lista 
     # Se hace el respectivo mensaje, el cual aparecera en pantalla del usuraio con el resultado de la consulta
-    return f'{mode(listActors)} es la actriz/actor que mas se repite en la plataforma de {platform} en el año {year}'
+    return f'{mode(listActors)} es la actriz/actor que mas se repite en la plataforma de {platform} en el anio {year}'

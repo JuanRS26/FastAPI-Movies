@@ -7,7 +7,7 @@ from surprise import SVD
 def movieGender(id):
     for i in range(0, len(totalMovies)):
         if totalMovies.Id.loc[i] == id:     # Se hace un filtro buscando la pelicula que el usuario digito 
-            return totalMovies.listed_in.loc[i] # Retorna un
+            return totalMovies.listed_in.loc[i] # Retorna los generos de la pelicula
 
 
 # Se cargan los sets de datos necesarios 

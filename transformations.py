@@ -1,8 +1,4 @@
 import pandas as pd
-from fastapi import FastAPI
-
-# Se cre la instancia de FastAPI
-app = FastAPI(title = 'Personal_Project')
 
 # Cargamos los sets de datos necesarios
 amazonDF = pd.read_csv('Datasets/NormalDataSet/amazon_prime_titles.csv')
