@@ -1,4 +1,5 @@
 import pandas as pd
+import gradio as gr
 from surprise import Dataset, Reader
 from surprise import SVD
 
@@ -48,8 +49,12 @@ for i in range(0, len(totalMovies)):
         title = totalMovies.title.loc[i]
         break
 
+porcentage = round((a[3] * 100) / 5, 1)     # Se crea una variable que almacena que tan probable es que al usuario le guste la pelicula/serie
+
 # Hacemos la respectiva recomendacion al usuario, en el cual, si el modelo predijo una puntuacion superio a 4.0, es una pelicula recomendada, de lo contrario, no es recomendada
 if a[3] > 4.0:
-    print(f'Si se recomienda que el usuario {user_id} vea "{title}".')
+    print(f'hay un {porcentage}% de que al usuraio "{user_id}" le guste la pelicula/serie')
+    print(f'Por ende, SI se recomienda que el usua  rio "{user_id}" vea "{title}".')
 else:
-    print(f'No se recomienda que el usuario {user_id} vea "{title}".')
+    print(f'hay un {porcentage}% de que al usuraio "{user_id}" le guste la pelicula/serie')
+    print(f'Por ende, NO se recomienda que el usuario "{user_id}" vea "{title}".')
