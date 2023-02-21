@@ -35,8 +35,6 @@ Simplemente invocando el link vacío, muestra el nombre y a quien pertenece la a
 Muestra una lista de las funciones disponibles para consultar. <br>
 :small_blue_diamond: Función _Contacto_: `/contacto`<br>
 Muestra dos maneras de contactar conmigo, en caso de necesidad. <br>
-:small_blue_diamond: Función _docs_: `/docs` <br>
-Muestra el menú principal de la api, donde también se puede testear las consultas.<br>
 
 :green_circle: **Notas finales:** :green_circle:<br>
 Muchas gracias por testear mi Proyecto! <br> 
