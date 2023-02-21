@@ -3,7 +3,7 @@ _Juan Esteban Rodriguez S._
 
 > En este README encontrarán toda la documentación, e instrucciones necesarias, para poder utilizar la API que se me solicitó desarrollar.
 
-[Video explicativo]()
+[Video explicativo](https://youtu.be/AepFpEU_17E)
 
 :green_circle: **MENU:** :green_circle:
 * **Datasets** - _Los sets de datos que recibí para trabajar y tambien los sets de datos transformados para su posterior manipulacion._
