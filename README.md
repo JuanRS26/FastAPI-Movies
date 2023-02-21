@@ -55,7 +55,7 @@ Muestra dos maneras de contactar conmigo, en caso de necesidad. <br>
 :red_circle: **Funcionamiento del sistema de recomendacion:** :red_circle: <br>
 
 :small_blue_diamond: Ejecutamos el archivo `recommendationSystem.py` en la terminal <br>
-:small_blue_diamond: Esperamos a que el sistema cargue los datos <br>
+:small_blue_diamond: Esperamos unos minutos a que el sistema cargue los datos <br>
 :small_blue_diamond: El sistema luego nos pedira digitar el ID de un usuario y el ID de una pelicula <br>
   :white_medium_small_square: Ejemplo: <br>
   :white_medium_small_square: User ID: 1 <br>
